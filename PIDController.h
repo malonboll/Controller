@@ -2,7 +2,6 @@
 class PIDController
 {
     public:
-    PIDController();
     PIDController(const int _kp, const int _ki, const int _kd, const int _dt, const int _min, const int _max);
     ~PIDController();
 
